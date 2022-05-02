@@ -1,13 +1,15 @@
 header{
     min-width: 400px;
     display: block;
+    /* margin: 10px; */
 }
 header > img {
     height: 70px;
+    /* margin: 10px; */
 }
 main > p {
     line-height: 1.8;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
 article{
@@ -33,12 +35,15 @@ article{
 }
 .Pirmas:hover, .Antras:hover, .Trecias:hover, .Ketvirtas:hover, .Penktas:hover, .Sestas:hover, .Septintas:hover, .Astuntas:hover, .Devintas:hover, .Desimtas:hover, .Vienuoliktas:hover, .Dvyliktas:hover {
     opacity: 1;
+    box-shadow: none;
+    /* width: 400px;
+    height: 400px; */
   }
 
 
 .Pirmas {
     background-image: url(pic01.jpg);
-    background: rgba(76, 175, 80, 0.5,)
+    box-shadow: inset 0 0 0 1000px rgba(242, 132, 158, 0.6);
 
 }
 
