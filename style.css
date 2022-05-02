@@ -1,0 +1,100 @@
+header{
+    min-width: 400px;
+    display: block;
+}
+header > img {
+    height: 70px;
+}
+main > p {
+    line-height: 1.8;
+    /* margin: 10px; */
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* margin-top: 10px; */
+    
+}
+
+.Pirmas, .Antras, .Trecias, .Ketvirtas, .Penktas, .Sestas, .Septintas, .Astuntas, .Devintas, .Desimtas, .Vienuoliktas, .Dvyliktas {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 353px;
+    height: 326px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    opacity: 0.5;
+  
+    
+}
+.Pirmas:hover, .Antras:hover, .Trecias:hover, .Ketvirtas:hover, .Penktas:hover, .Sestas:hover, .Septintas:hover, .Astuntas:hover, .Devintas:hover, .Desimtas:hover, .Vienuoliktas:hover, .Dvyliktas:hover {
+    opacity: 1;
+  }
+
+
+.Pirmas {
+    background-image: url(pic01.jpg);
+    background: rgba(76, 175, 80, 0.5,)
+
+}
+
+.Antras {
+    background-image: url(pic02.jpg);
+    
+}
+.Trecias {
+    background-image: url(pic03.jpg);
+    
+}
+.Ketvirtas {
+    background-image: url(pic04.jpg);
+    
+}
+.Penktas {
+    background-image: url(pic05.jpg);
+    
+}
+.Sestas {
+    background-image: url(pic06.jpg);
+    
+}
+.Septintas {
+    background-image: url(pic07.jpg);
+    
+}
+.Astuntas {
+    background-image: url(pic08.jpg);
+    
+}
+.Devintas {
+    background-image: url(pic09.jpg);
+    
+}
+.Desimtas {
+    background-image: url(pic10.jpg);
+    
+}
+.Vienuoliktas {
+    background-image: url(pic11.jpg);
+    
+}
+.Dvyliktas {
+    background-image: url(pic12.jpg);
+    
+}
+
+
+ a{
+     color: white;
+     text-decoration: none;
+ }
+ body{
+     /* display: flex;
+     flex-direction: column; */
+     min-width: 400px;
+     max-width: 400px;
+ }
