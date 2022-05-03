@@ -116,7 +116,7 @@ article{
  }
  body{
      /* display: flex;
-     flex-direction: column; */
+     flex-direction: cooolumn; */
      min-width: 400px;
      max-width: 400px;
  }
