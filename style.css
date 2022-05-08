@@ -1,11 +1,15 @@
-header{
-    min-width: 400px;
-    display: block;
-    /* margin: 10px; */
+
+body{
+    display: grid;
+    margin: 40px;
+    width: 400px;
+    vertical-align: auto;
+    
 }
+
 header > img {
     height: 70px;
-    /* margin: 10px; */
+    
 }
 main > p {
     line-height: 1.8;
@@ -16,7 +20,7 @@ article{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /* margin-top: 10px; */
+    
     
 }
 
@@ -32,7 +36,10 @@ article{
     opacity: 0.5;
     border-radius: 5px;
     transition: transform 0.45s ease, visibility 0.45s;
-    /* font-family: "Courier New", monospace; */
+    font-family: "Source sans pro", Arial, Helvetica, serif;
+    letter-spacing: 3px;
+    font-size: 14px;
+    
     
   
     
@@ -42,9 +49,9 @@ article{
     box-shadow: none;
     transform: scale(1.08);
     transition: transform 0.45s ease, visibility 0.45s;
-    /* width: 400px;
-    height: 400px; */
+   
   }
+
 
 
 .Pirmas {
@@ -114,9 +121,27 @@ article{
      color: white;
      text-decoration: none;
  }
- body{
-     /* display: flex;
-     flex-direction: cooolumn; */
-     min-width: 400px;
-     max-width: 400px;
+
+
+ @media screen and (min-width: 480px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    
+     
+ }     
+    main {
+        width: 100%;
+    }
+ }
+
+ @media screen and (min-width: 980px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px;
+     
+ }     
+   
  }
